@@ -1,0 +1,151 @@
+[sa-color="primary"] {
+  --profile-color: var(--color-primary);
+  --profile-color-ghost: var(--color-primary-ghost);
+  --profile-color-haze: var(--color-primary-haze);
+  --profile-color-semi: var(--color-primary-semi);
+  --profile-color-overlay: var(--color-primary-overlay);
+}
+
+[sa-color="secondary"] {
+  --profile-color: var(--color-secondary);
+  --profile-color-ghost: var(--color-secondary-ghost);
+  --profile-color-haze: var(--color-secondary-haze);
+  --profile-color-semi: var(--color-secondary-semi);
+  --profile-color-overlay: var(--color-secondary-overlay);
+}
+
+[sa-color="accent"] {
+  --profile-color: var(--color-accent);
+  --profile-color-ghost: var(--color-accent-ghost);
+  --profile-color-haze: var(--color-accent-haze);
+  --profile-color-semi: var(--color-accent-semi);
+  --profile-color-overlay: var(--color-accent-overlay);
+}
+
+[sa-color="base"] {
+  --profile-color: var(--color-base);
+  --profile-color-ghost: var(--color-base-ghost);
+  --profile-color-haze: var(--color-base-haze);
+  --profile-color-semi: var(--color-base-semi);
+  --profile-color-overlay: var(--color-base-overlay);
+}
+
+[sa-color="body"] {
+  --profile-color: var(--color-body);
+  --profile-color-ghost: var(--color-body-ghost);
+  --profile-color-haze: var(--color-body-haze);
+  --profile-color-semi: var(--color-body-semi);
+  --profile-color-overlay: var(--color-body-overlay);
+}
+
+[sa-color="cloud"] {
+  --profile-color: var(--color-cloud);
+  --profile-color-ghost: var(--color-cloud-ghost);
+  --profile-color-haze: var(--color-cloud-haze);
+  --profile-color-semi: var(--color-cloud-semi);
+  --profile-color-overlay: var(--color-cloud-overlay);
+}
+
+[sa-color="line"] {
+  --profile-color: var(--color-line);
+  --profile-color-ghost: var(--color-line-ghost);
+  --profile-color-haze: var(--color-line-haze);
+  --profile-color-semi: var(--color-line-semi);
+  --profile-color-overlay: var(--color-line-overlay);
+}
+
+[sa-color="aux"] {
+  --profile-color: var(--color-aux);
+  --profile-color-ghost: var(--color-aux-ghost);
+  --profile-color-haze: var(--color-aux-haze);
+  --profile-color-semi: var(--color-aux-semi);
+  --profile-color-overlay: var(--color-aux-overlay);
+}
+
+[sa-color="cite"] {
+  --profile-color: var(--color-cite);
+  --profile-color-ghost: var(--color-cite-ghost);
+  --profile-color-haze: var(--color-cite-haze);
+  --profile-color-semi: var(--color-cite-semi);
+  --profile-color-overlay: var(--color-cite-overlay);
+}
+
+[sa-color="icon"] {
+  --profile-color: var(--color-icon);
+  --profile-color-ghost: var(--color-icon-ghost);
+  --profile-color-haze: var(--color-icon-haze);
+  --profile-color-semi: var(--color-icon-semi);
+  --profile-color-overlay: var(--color-icon-overlay);
+}
+
+[sa-color="caption"] {
+  --profile-color: var(--color-caption);
+  --profile-color-ghost: var(--color-caption-ghost);
+  --profile-color-haze: var(--color-caption-haze);
+  --profile-color-semi: var(--color-caption-semi);
+  --profile-color-overlay: var(--color-caption-overlay);
+}
+
+[sa-color="head"] {
+  --profile-color: var(--color-head);
+  --profile-color-ghost: var(--color-head-ghost);
+  --profile-color-haze: var(--color-head-haze);
+  --profile-color-semi: var(--color-head-semi);
+  --profile-color-overlay: var(--color-head-overlay);
+}
+
+[sa-color="text"] {
+  --profile-color: var(--color-text);
+  --profile-color-ghost: var(--color-text-ghost);
+  --profile-color-haze: var(--color-text-haze);
+  --profile-color-semi: var(--color-text-semi);
+  --profile-color-overlay: var(--color-text-overlay);
+}
+
+[sa-color="black"] {
+  --profile-color: var(--color-black);
+  --profile-color-ghost: var(--color-black-ghost);
+  --profile-color-haze: var(--color-black-haze);
+  --profile-color-semi: var(--color-black-semi);
+  --profile-color-overlay: var(--color-black-overlay);
+}
+
+[sa-color="info"] {
+  --profile-color: var(--color-info);
+  --profile-color-ghost: var(--color-info-ghost);
+  --profile-color-haze: var(--color-info-haze);
+  --profile-color-semi: var(--color-info-semi);
+  --profile-color-overlay: var(--color-info-overlay);
+}
+
+[sa-color="success"] {
+  --profile-color: var(--color-success);
+  --profile-color-ghost: var(--color-success-ghost);
+  --profile-color-haze: var(--color-success-haze);
+  --profile-color-semi: var(--color-success-semi);
+  --profile-color-overlay: var(--color-success-overlay);
+}
+
+[sa-color="warning"] {
+  --profile-color: var(--color-warning);
+  --profile-color-ghost: var(--color-warning-ghost);
+  --profile-color-haze: var(--color-warning-haze);
+  --profile-color-semi: var(--color-warning-semi);
+  --profile-color-overlay: var(--color-warning-overlay);
+}
+
+[sa-color="alert"] {
+  --profile-color: var(--color-alert);
+  --profile-color-ghost: var(--color-alert-ghost);
+  --profile-color-haze: var(--color-alert-haze);
+  --profile-color-semi: var(--color-alert-semi);
+  --profile-color-overlay: var(--color-alert-overlay);
+}
+
+[sa-color="notification"] {
+  --profile-color: var(--color-notification);
+  --profile-color-ghost: var(--color-notification-ghost);
+  --profile-color-haze: var(--color-notification-haze);
+  --profile-color-semi: var(--color-notification-semi);
+  --profile-color-overlay: var(--color-notification-overlay);
+}
