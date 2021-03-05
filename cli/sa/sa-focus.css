@@ -1,0 +1,312 @@
+[sa-focus="normal"],
+[sa-focus="lighter"],
+[sa-focus="darker"],
+[sa-focus="dark"],
+[sa-focus="dark-lighter"],
+[sa-focus="dark-darker"],
+[sa-focus="light"],
+[sa-focus="light-lighter"],
+[sa-focus="light-darker"],
+[sa-focus="blank"],
+[sa-focus="blank-lighter"],
+[sa-focus="blank-darker"],
+[sa-focus="accent"],
+[sa-focus="accent-lighter"],
+[sa-focus="accent-darker"],
+[sa-focus="accent-self-lighter"],
+[sa-focus="accent-self-darker"],
+[sa-focus="ghost"],
+[sa-focus="haze"],
+[sa-focus="semi"],
+[sa-focus="overlay"],
+[sa-focus="inverse"],
+[sa-focus="inverse-lighter"],
+[sa-focus="inverse-darker"],
+[sa-focus="inverse-dark"],
+[sa-focus="inverse-dark-lighter"],
+[sa-focus="inverse-dark-darker"],
+[sa-focus="inverse-light"],
+[sa-focus="inverse-light-lighter"],
+[sa-focus="inverse-light-darker"],
+[sa-focus="inverse-accent"],
+[sa-focus="inverse-accent-lighter"],
+[sa-focus="inverse-accent-darker"],
+[sa-focus="inverse-accent-self-lighter"],
+[sa-focus="inverse-accent-self-darker"],
+[sa-focus="inverse-ghost"],
+[sa-focus="inverse-ghost-self"],
+[sa-focus="inverse-haze"],
+[sa-focus="inverse-haze-self"],
+[sa-focus="inverse-semi"],
+[sa-focus="inverse-semi-self"],
+[sa-focus="inverse-overlay"],
+[sa-focus="inverse-overlay-dark"],
+[sa-focus="inverse-overlay-light"] {
+  transition:
+    color 0.2s ease-in,
+    background-color 0.2s ease-out;
+}
+
+[sa-focus="normal"]:hover,
+[sa-focus="normal"]:focus {
+  color: var(--profile-color);
+  background-color: inherit;
+}
+
+[sa-focus="lighter"]:hover,
+[sa-focus="lighter"]:focus {
+  color: var(--profile-color-lighter);
+  background-color: inherit;
+}
+
+[sa-focus="darker"]:hover,
+[sa-focus="darker"]:focus {
+  color: var(--profile-color-darker);
+  background-color: inherit;
+}
+
+[sa-focus="dark"]:hover,
+[sa-focus="dark"]:focus {
+  color: var(--profile-color);
+  background-color: var(--colors-blacksnow);
+}
+
+[sa-focus="dark-lighter"]:hover,
+[sa-focus="dark-lighter"]:focus {
+  color: var(--profile-color-lighter);
+  background-color: var(--colors-blacksnow);
+}
+
+[sa-focus="dark-darker"]:hover,
+[sa-focus="dark-darker"]:focus {
+  color: var(--profile-color-darker);
+  background-color: var(--colors-blacksnow);
+}
+
+[sa-focus="light"]:hover,
+[sa-focus="light"]:focus {
+  color: var(--profile-color);
+  background-color: var(--colors-snow);
+}
+
+[sa-focus="light-lighter"]:hover,
+[sa-focus="light-lighter"]:focus {
+  color: var(--profile-color-lighter);
+  background-color: var(--colors-snow);
+}
+
+[sa-focus="light-darker"]:hover,
+[sa-focus="light-darker"]:focus {
+  color: var(--profile-color-darker);
+  background-color: var(--colors-snow);
+}
+
+[sa-focus="blank"]:hover,
+[sa-focus="blank"]:focus {
+  color: var(--profile-color);
+  background-color: transparent;
+}
+
+[sa-focus="blank-lighter"]:hover,
+[sa-focus="blank-lighter"]:focus {
+  color: var(--profile-color-lighter);
+  background-color: transparent;
+}
+
+[sa-focus="blank-darker"]:hover,
+[sa-focus="blank-darker"]:focus {
+  color: var(--profile-color-darker);
+  background-color: transparent;
+}
+
+[sa-focus="accent"]:hover,
+[sa-focus="accent"]:focus {
+  color: var(--profile-color);
+  background-color: var(--color-accent);
+}
+
+[sa-focus="accent-lighter"]:hover,
+[sa-focus="accent-lighter"]:focus {
+  color: var(--profile-color-lighter);
+  background-color: var(--color-accent);
+}
+
+[sa-focus="accent-darker"]:hover,
+[sa-focus="accent-darker"]:focus {
+  color: var(--profile-color-darker);
+  background-color: var(--color-accent);
+}
+
+[sa-focus="accent-self-lighter"]:hover,
+[sa-focus="accent-self-lighter"]:focus {
+  color: var(--profile-color);
+  background-color: var(--color-accent-lighter);
+}
+
+[sa-focus="accent-self-darker"]:hover,
+[sa-focus="accent-self-darker"]:focus {
+  color: var(--profile-color);
+  background-color: var(--color-accent-darker);
+}
+
+[sa-focus="ghost"]:hover,
+[sa-focus="ghost"]:focus {
+  color: var(--profile-color-ghost);
+  background-color: inherit;
+}
+
+[sa-focus="haze"]:hover,
+[sa-focus="haze"]:focus {
+  color: var(--profile-color-haze);
+  background-color: inherit;
+}
+
+[sa-focus="semi"]:hover,
+[sa-focus="semi"]:focus {
+  color: var(--profile-color-semi);
+  background-color: inherit;
+}
+
+[sa-focus="overlay"]:hover,
+[sa-focus="overlay"]:focus {
+  color: var(--profile-color-overlay);
+  background-color: inherit;
+}
+
+[sa-focus="inverse"]:hover,
+[sa-focus="inverse"]:focus {
+  color: inherit;
+  background-color: var(--profile-color);
+}
+
+[sa-focus="inverse-lighter"]:hover,
+[sa-focus="inverse-lighter"]:focus {
+  color: inherit;
+  background-color: var(--profile-color-lighter);
+}
+
+[sa-focus="inverse-darker"]:hover,
+[sa-focus="inverse-darker"]:focus {
+  color: inherit;
+  background-color: var(--profile-color-darker);
+}
+
+[sa-focus="inverse-dark"]:hover,
+[sa-focus="inverse-dark"]:focus {
+  color: var(--colors-carbon);
+  background-color: var(--profile-color);
+}
+
+[sa-focus="inverse-dark-lighter"]:hover,
+[sa-focus="inverse-dark-lighter"]:focus {
+  color: var(--colors-carbon);
+  background-color: var(--profile-color-lighter);
+}
+
+[sa-focus="inverse-dark-darker"]:hover,
+[sa-focus="inverse-dark-darker"]:focus {
+  color: var(--colors-carbon);
+  background-color: var(--profile-color-darker);
+}
+
+[sa-focus="inverse-light"]:hover,
+[sa-focus="inverse-light"]:focus {
+  color: var(--colors-white);
+  background-color: var(--profile-color);
+}
+
+[sa-focus="inverse-light-lighter"]:hover,
+[sa-focus="inverse-light-lighter"]:focus {
+  color: var(--colors-white);
+  background-color: var(--profile-color-lighter);
+}
+
+[sa-focus="inverse-light-darker"]:hover,
+[sa-focus="inverse-light-darker"]:focus {
+  color: var(--colors-white);
+  background-color: var(--profile-color-darker);
+}
+
+[sa-focus="inverse-accent"]:hover,
+[sa-focus="inverse-accent"]:focus {
+  color: var(--color-accent);
+  background-color: var(--profile-color);
+}
+
+[sa-focus="inverse-accent-lighter"]:hover,
+[sa-focus="inverse-accent-lighter"]:focus {
+  color: var(--color-accent);
+  background-color: var(--profile-color-lighter);
+}
+
+[sa-focus="inverse-accent-darker"]:hover,
+[sa-focus="inverse-accent-darker"]:focus {
+  color: var(--color-accent);
+  background-color: var(--profile-color-darker);
+}
+
+[sa-focus="inverse-accent-self-lighter"]:hover,
+[sa-focus="inverse-accent-self-lighter"]:focus {
+  color: var(--color-accent-lighter);
+  background-color: var(--profile-color);
+}
+
+[sa-focus="inverse-accent-self-darker"]:hover,
+[sa-focus="inverse-accent-self-darker"]:focus {
+  color: var(--color-accent-darker);
+  background-color: var(--profile-color);
+}
+
+[sa-focus="inverse-ghost"]:hover,
+[sa-focus="inverse-ghost"]:focus {
+  color: inherit;
+  background-color: var(--profile-color-ghost);
+}
+
+[sa-focus="inverse-ghost-self"]:hover,
+[sa-focus="inverse-ghost-self"]:focus {
+  color: var(--profile-color);
+  background-color: var(--profile-color-ghost);
+}
+
+[sa-focus="inverse-haze"]:hover,
+[sa-focus="inverse-haze"]:focus {
+  color: inherit;
+  background-color: var(--profile-color-haze);
+}
+
+[sa-focus="inverse-haze-self"]:hover,
+[sa-focus="inverse-haze-self"]:focus {
+  color: var(--profile-color);
+  background-color: var(--profile-color-haze);
+}
+
+[sa-focus="inverse-semi"]:hover,
+[sa-focus="inverse-semi"]:focus {
+  color: inherit;
+  background-color: var(--profile-color-semi);
+}
+
+[sa-focus="inverse-semi-self"]:hover,
+[sa-focus="inverse-semi-self"]:focus {
+  color: var(--profile-color);
+  background-color: var(--profile-color-semi);
+}
+
+[sa-focus="inverse-overlay"]:hover,
+[sa-focus="inverse-overlay"]:focus {
+  color: inherit;
+  background-color: var(--profile-color-overlay);
+}
+
+[sa-focus="inverse-overlay-dark"]:hover,
+[sa-focus="inverse-overlay-dark"]:focus {
+  color: var(--colors-carbon);
+  background-color: var(--profile-color-overlay);
+}
+
+[sa-focus="inverse-overlay-light"]:hover,
+[sa-focus="inverse-overlay-light"]:focus {
+  color: var(--colors-white);
+  background-color: var(--profile-color-overlay);
+}

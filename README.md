@@ -16,13 +16,13 @@ Colors divided in 3 parts:
 
 ### User colors
 
-As name suggests, user colors are those picked by user, that define the color schema of user's brand. We consider 4 main colors:
+As name suggests, user colors are those picked by user, that define the color schema of user's brand. We consider 3 main colors:
 
-| Color label      | Description                                                   | Base color contrast range | Saturation range |
-|------------------|---------------------------------------------------------------|---------------------------|------------------|
-| primary          | Primary UI theme color                                        | 3.25 - 6.75               | 0.65 - 0.95      |
-| accent           | Accent color on `primary` background                          | 4.5 - 9 *primary          | 0.85 - 1         |
-| secondary        | Optional secondary UI theme color                             | 3.25 - 6.75               | 0.65 - 0.95      |
+| Color label      | Description                              | Base color contrast range | Saturation range |
+|------------------|------------------------------------------|---------------------------|------------------|
+| primary          | Primary UI theme color                   | 3.25 - 6.75               | 0.65 - 1         |
+| accent           | Accent color on `primary` background     | -                         | 0.85 - 1         |
+| secondary        | Optional secondary UI theme color        | 3.25 - 6.75               | 0.65 - 1         |
 
 User only picks `primary` and `secondary` colors, the rest of the colors are calculated programmatically.
 
@@ -96,11 +96,11 @@ Attribute label: **`sa-color`**
 
 | value          | description                              |
 |----------------|------------------------------------------|
-| <color-label>  | Sets `--profile-color` to specific color |
+| `color-label`  | Sets `--profile-color` to specific color |
 
 ### Fill Mode
 
-Attribute label: **`sa-fill`**
+Attribute labels: **`sa-fill`** and **`sa-focus`**
 
 | value                  | `color`                   | `background-color`       |
 |------------------------|---------------------------|--------------------------|
@@ -108,6 +108,7 @@ Attribute label: **`sa-fill`**
 | dark                   | `--profile-color`         | `--colors-blacksnow`     |
 | light                  | `--profile-color`         | `--colors-snow`          |
 | blank                  | `--profile-color`         | `transparent`            |
+| accent                 | `--profile-color`         | `color-accent`           |
 | ghost                  | `--profile-color-ghost`   | `inherit`                |
 | haze                   | `--profile-color-haze`    | `inherit`                |
 | semi                   | `--profile-color-semi`    | `inherit`                |
@@ -115,6 +116,7 @@ Attribute label: **`sa-fill`**
 | inverse                | `inherit`                 | `--profile-color`        |
 | inverse-dark           | `--colors-carbon`         | `--profile-color`        |
 | inverse-white          | `--colors-white`          | `--profile-color`        |
+| inverse-accent         | `color-accent`            | `--profile-color`        |
 | inverse-ghost          | `inherit`                 | `--profile-color-ghost`  |
 | inverse-ghost-self     | `--profile-color`         | `--profile-color-ghost`  |
 | inverse-haze           | `inherit`                 | `--profile-color-haze`   |

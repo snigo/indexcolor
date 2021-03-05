@@ -18,6 +18,11 @@
   background-color: transparent;
 }
 
+[sa-fill="accent"] {
+  color: var(--profile-color);
+  background-color: var(--color-accent);
+}
+
 [sa-fill="ghost"] {
   color: var(--profile-color-ghost);
   background-color: inherit;
@@ -50,6 +55,11 @@
 
 [sa-fill="inverse-light"] {
   color: var(--colors-white);
+  background-color: var(--profile-color);
+}
+
+[sa-fill="inverse-accent"] {
+  color: var(--color-accent);
   background-color: var(--profile-color);
 }
 

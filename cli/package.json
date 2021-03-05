@@ -1,0 +1,28 @@
+{
+  "name": "index-color-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for generating index color palette",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snigo/indexcolor.git"
+  },
+  "keywords": [
+    "color",
+    "theme"
+  ],
+  "author": "snigo <sudo@snigo.dev>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/snigo/indexcolor/issues"
+  },
+  "homepage": "https://github.com/snigo/indexcolor#readme",
+  "dependencies": {
+    "@snigo.dev/color": "^0.0.3",
+    "inquirer": "^7.3.3",
+    "ora": "^5.3.0"
+  }
+}

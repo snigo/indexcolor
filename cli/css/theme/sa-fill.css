@@ -1,0 +1,109 @@
+[sa-fill="normal"] {
+  color: var(--profile-color);
+  background-color: inherit;
+}
+
+[sa-fill="dark"] {
+  color: var(--profile-color);
+  background-color: var(--colors-blacksnow);
+}
+
+[sa-fill="light"] {
+  color: var(--profile-color);
+  background-color: var(--colors-snow);
+}
+
+[sa-fill="blank"] {
+  color: var(--profile-color);
+  background-color: transparent;
+}
+
+[sa-fill="accent"] {
+  color: var(--profile-color);
+  background-color: var(--color-accent);
+}
+
+[sa-fill="ghost"] {
+  color: var(--profile-color-ghost);
+  background-color: inherit;
+}
+
+[sa-fill="haze"] {
+  color: var(--profile-color-haze);
+  background-color: inherit;
+}
+
+[sa-fill="semi"] {
+  color: var(--profile-color-semi);
+  background-color: inherit;
+}
+
+[sa-fill="overlay"] {
+  color: var(--profile-color-overlay);
+  background-color: inherit;
+}
+
+[sa-fill="inverse"] {
+  color: inherit;
+  background-color: var(--profile-color);
+}
+
+[sa-fill="inverse-dark"] {
+  color: var(--colors-carbon);
+  background-color: var(--profile-color);
+}
+
+[sa-fill="inverse-light"] {
+  color: var(--colors-white);
+  background-color: var(--profile-color);
+}
+
+[sa-fill="inverse-accent"] {
+  color: var(--color-accent);
+  background-color: var(--profile-color);
+}
+
+[sa-fill="inverse-ghost"] {
+  color: inherit;
+  background-color: var(--profile-color-ghost);
+}
+
+[sa-fill="inverse-ghost-self"] {
+  color: var(--profile-color);
+  background-color: var(--profile-color-ghost);
+}
+
+[sa-fill="inverse-haze"] {
+  color: inherit;
+  background-color: var(--profile-color-haze);
+}
+
+[sa-fill="inverse-haze-self"] {
+  color: var(--profile-color);
+  background-color: var(--profile-color-haze);
+}
+
+[sa-fill="inverse-semi"] {
+  color: inherit;
+  background-color: var(--profile-color-semi);
+}
+
+[sa-fill="inverse-semi-self"] {
+  color: var(--profile-color);
+  background-color: var(--profile-color-semi);
+}
+
+[sa-fill="inverse-overlay"] {
+  color: inherit;
+  background-color: var(--profile-color-overlay);
+}
+
+[sa-fill="inverse-overlay-dark"] {
+  color: var(--colors-carbon);
+  background-color: var(--profile-color-overlay);
+}
+
+[sa-fill="inverse-overlay-light"] {
+  color: var(--colors-white);
+  background-color: var(--profile-color-overlay);
+}

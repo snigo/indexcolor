@@ -4,6 +4,8 @@
   --profile-color-haze: var(--color-primary-haze);
   --profile-color-semi: var(--color-primary-semi);
   --profile-color-overlay: var(--color-primary-overlay);
+  --profile-color-lighter: var(--color-primary-lighter);
+  --profile-color-darker: var(--color-primary-darker);
 }
 
 [sa-color="secondary"] {
@@ -12,6 +14,8 @@
   --profile-color-haze: var(--color-secondary-haze);
   --profile-color-semi: var(--color-secondary-semi);
   --profile-color-overlay: var(--color-secondary-overlay);
+  --profile-color-lighter: var(--color-secondary-lighter);
+  --profile-color-darker: var(--color-secondary-darker);
 }
 
 [sa-color="accent"] {
@@ -20,6 +24,8 @@
   --profile-color-haze: var(--color-accent-haze);
   --profile-color-semi: var(--color-accent-semi);
   --profile-color-overlay: var(--color-accent-overlay);
+  --profile-color-lighter: var(--color-accent-lighter);
+  --profile-color-darker: var(--color-accent-darker);
 }
 
 [sa-color="base"] {
@@ -28,6 +34,8 @@
   --profile-color-haze: var(--color-base-haze);
   --profile-color-semi: var(--color-base-semi);
   --profile-color-overlay: var(--color-base-overlay);
+  --profile-color-lighter: var(--color-base-lighter);
+  --profile-color-darker: var(--color-base-darker);
 }
 
 [sa-color="body"] {
@@ -36,6 +44,8 @@
   --profile-color-haze: var(--color-body-haze);
   --profile-color-semi: var(--color-body-semi);
   --profile-color-overlay: var(--color-body-overlay);
+  --profile-color-lighter: var(--color-body-lighter);
+  --profile-color-darker: var(--color-body-darker);
 }
 
 [sa-color="cloud"] {
@@ -44,6 +54,8 @@
   --profile-color-haze: var(--color-cloud-haze);
   --profile-color-semi: var(--color-cloud-semi);
   --profile-color-overlay: var(--color-cloud-overlay);
+  --profile-color-lighter: var(--color-cloud-lighter);
+  --profile-color-darker: var(--color-cloud-darker);
 }
 
 [sa-color="line"] {
@@ -52,6 +64,8 @@
   --profile-color-haze: var(--color-line-haze);
   --profile-color-semi: var(--color-line-semi);
   --profile-color-overlay: var(--color-line-overlay);
+  --profile-color-lighter: var(--color-line-lighter);
+  --profile-color-darker: var(--color-line-darker);
 }
 
 [sa-color="aux"] {
@@ -60,6 +74,8 @@
   --profile-color-haze: var(--color-aux-haze);
   --profile-color-semi: var(--color-aux-semi);
   --profile-color-overlay: var(--color-aux-overlay);
+  --profile-color-lighter: var(--color-aux-lighter);
+  --profile-color-darker: var(--color-aux-darker);
 }
 
 [sa-color="cite"] {
@@ -68,6 +84,8 @@
   --profile-color-haze: var(--color-cite-haze);
   --profile-color-semi: var(--color-cite-semi);
   --profile-color-overlay: var(--color-cite-overlay);
+  --profile-color-lighter: var(--color-cite-lighter);
+  --profile-color-darker: var(--color-cite-darker);
 }
 
 [sa-color="icon"] {
@@ -76,6 +94,8 @@
   --profile-color-haze: var(--color-icon-haze);
   --profile-color-semi: var(--color-icon-semi);
   --profile-color-overlay: var(--color-icon-overlay);
+  --profile-color-lighter: var(--color-icon-lighter);
+  --profile-color-darker: var(--color-icon-darker);
 }
 
 [sa-color="caption"] {
@@ -84,6 +104,8 @@
   --profile-color-haze: var(--color-caption-haze);
   --profile-color-semi: var(--color-caption-semi);
   --profile-color-overlay: var(--color-caption-overlay);
+  --profile-color-lighter: var(--color-caption-lighter);
+  --profile-color-darker: var(--color-caption-darker);
 }
 
 [sa-color="head"] {
@@ -92,6 +114,8 @@
   --profile-color-haze: var(--color-head-haze);
   --profile-color-semi: var(--color-head-semi);
   --profile-color-overlay: var(--color-head-overlay);
+  --profile-color-lighter: var(--color-head-lighter);
+  --profile-color-darker: var(--color-head-darker);
 }
 
 [sa-color="text"] {
@@ -100,6 +124,18 @@
   --profile-color-haze: var(--color-text-haze);
   --profile-color-semi: var(--color-text-semi);
   --profile-color-overlay: var(--color-text-overlay);
+  --profile-color-lighter: var(--color-text-lighter);
+  --profile-color-darker: var(--color-text-darker);
+}
+
+[sa-color="white"] {
+  --profile-color: var(--color-white);
+  --profile-color-ghost: var(--color-white-ghost);
+  --profile-color-haze: var(--color-white-haze);
+  --profile-color-semi: var(--color-white-semi);
+  --profile-color-overlay: var(--color-white-overlay);
+  --profile-color-lighter: var(--color-white-lighter);
+  --profile-color-darker: var(--color-white-darker);
 }
 
 [sa-color="black"] {
@@ -108,6 +144,8 @@
   --profile-color-haze: var(--color-black-haze);
   --profile-color-semi: var(--color-black-semi);
   --profile-color-overlay: var(--color-black-overlay);
+  --profile-color-lighter: var(--color-black-lighter);
+  --profile-color-darker: var(--color-black-darker);
 }
 
 [sa-color="info"] {
@@ -116,6 +154,8 @@
   --profile-color-haze: var(--color-info-haze);
   --profile-color-semi: var(--color-info-semi);
   --profile-color-overlay: var(--color-info-overlay);
+  --profile-color-lighter: var(--color-info-lighter);
+  --profile-color-darker: var(--color-info-darker);
 }
 
 [sa-color="success"] {
@@ -124,6 +164,8 @@
   --profile-color-haze: var(--color-success-haze);
   --profile-color-semi: var(--color-success-semi);
   --profile-color-overlay: var(--color-success-overlay);
+  --profile-color-lighter: var(--color-success-lighter);
+  --profile-color-darker: var(--color-success-darker);
 }
 
 [sa-color="warning"] {
@@ -132,6 +174,8 @@
   --profile-color-haze: var(--color-warning-haze);
   --profile-color-semi: var(--color-warning-semi);
   --profile-color-overlay: var(--color-warning-overlay);
+  --profile-color-lighter: var(--color-warning-lighter);
+  --profile-color-darker: var(--color-warning-darker);
 }
 
 [sa-color="alert"] {
@@ -140,6 +184,8 @@
   --profile-color-haze: var(--color-alert-haze);
   --profile-color-semi: var(--color-alert-semi);
   --profile-color-overlay: var(--color-alert-overlay);
+  --profile-color-lighter: var(--color-alert-lighter);
+  --profile-color-darker: var(--color-alert-darker);
 }
 
 [sa-color="notification"] {
@@ -148,4 +194,6 @@
   --profile-color-haze: var(--color-notification-haze);
   --profile-color-semi: var(--color-notification-semi);
   --profile-color-overlay: var(--color-notification-overlay);
+  --profile-color-lighter: var(--color-notification-lighter);
+  --profile-color-darker: var(--color-notification-darker);
 }
